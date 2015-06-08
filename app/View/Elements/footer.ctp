@@ -27,7 +27,7 @@
     <!-- end-footer-in -->
     <section class="footbot">
 	<div class="container">
-      <div class="footer-navi">© 2013 <a href="#">You & I</a> Todos los derechos reservados.</div>
+      <div class="footer-navi">© <?= date("Y"); ?> <a href="#">You & I</a> Todos los derechos reservados.</div>
       <div class="socailfollow">
 		        	<a href="#" class="facebook"><i class="icomoon-facebook"></i></a>
 		        	<a href="#" class="twitter"><i class="icomoon-twitter"></i></a>
