@@ -12,7 +12,7 @@ $url = $this->here;
 			
 <div  class="container">
 	<div class="four columns">
-	<div class="logo"><a href="#"><?= $this->Html->link( $this->Html->image('logov2.jpg', array('width' => 220, 'id' => 'img-logo', 'alt' => 'You and I') ), '/', array('escape' => false) ); ?></a></div>
+	<div class="logo"><a href="#"><?= $this->Html->link( $this->Html->image('logov3.jpg', array('width' => 220, 'id' => 'img-logo', 'alt' => 'You and I') ), '/', array('escape' => false) ); ?></a></div>
 	</div>
 
 <!-- Navigation starts

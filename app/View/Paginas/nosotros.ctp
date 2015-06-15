@@ -13,7 +13,7 @@
 		<div class="sub-content">
 			<h6 class="h-sub-content">¿Quiénes Somos?</h6>
 		</div>
-      <p>Somos una compañía que brinda un servicio integral de conceptualización, diseño y coordinación de tu boda o evento. <br> Sabemos lo importante que es para ti y tenemos a los mejores profesionales que harán de tu evento algo inolvidable.</p>
+      <p>Somos una compañía que brinda un servicio integral de conceptualización, diseño y coordinación de tu boda y evento social o corporativo.</p>
     </article>
 	<!-- end Who We Are -->
     <div class="five columns omega offset-by-one">
@@ -62,7 +62,7 @@
 	</div>
 	<div class="sixteen columns">
         <div class="one_third">
-          <figure class="our-team"> <?= $this->Html->image('placeholder.png'); ?>
+          <figure class="our-team"> <?= $this->Html->image('nosotros/vanessadelatorre.jpg'); ?>
             <figcaption><h4><strong>Vanessa De La Torre<br>
               <small>Event Planner</small></strong></h4>
             <p>Morem ipsum dolor sit amet, consectetur adipiscing elit Aenean nisl orci aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -71,7 +71,7 @@
           <!-- end Our Team -->
         </div>
         <div class="one_third column-last">
-          <figure class="our-team"> <?= $this->Html->image('placeholder.png'); ?>
+          <figure class="our-team"> <?= $this->Html->image('nosotros/dianadelatorre.jpg'); ?>
             <figcaption><h4><strong>Diana De La Torre<br>
               <small>Diseñadora</small></strong></h4>
             <p>Morlem ipsum dolor sit amet, consectetur adipiscing elit Aenean nisl orci aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>

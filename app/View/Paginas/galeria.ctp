@@ -17,43 +17,31 @@
 
 			<ul class="gallery clearfix">
 				<li class="img-item">
-                <?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+                <?= $this->Html->link($this->Html->image('galeria/g1.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g1.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g3.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g3.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g4.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g4.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g5.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g5.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g6.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g6.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g7.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g7.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g8.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g8.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g9.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g9.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
-				</li>
-				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
-				</li>
-				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
-				</li>
-				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
-				</li>
-				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('placeholder.png').'<span class="zoomex">&nbsp;</span>', '/img/placeholder.png', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
+				<?= $this->Html->link($this->Html->image('galeria/g10.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g10.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 
 	</ul>

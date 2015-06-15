@@ -12,7 +12,7 @@
 
     <hr class="vertical-space2">
     <div class="ten columns"> <small>Lo que sabemos</small>
-      <h2>You & I es una compañía que ofrece un servicio exclusivo de organización integral de bodas y eventos</h2><p> cuya prioridad es el servicio al cliente; nuestra atención personalizada, honesta y profesional nos distinguen.</p>
+      <h2>You & I es una compañía que ofrece un servicio exclusivo de organización integral de bodas, eventos sociales y corporativos.</p>
     </div>
     <div class="five columns omega offset-by-one">
 	<!-- Start-Callouts -->

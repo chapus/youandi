@@ -34,7 +34,7 @@
 	h4.subtitle.r1dd { margin-top: 20px; }
 	.title { background: #fff url(../../img/style1/title-left1.png) repeat-x 0 6px; overflow: hidden; margin-bottom: 21px; clear: both; }
 	.title h4, .title h3 { background: #fff; display: inline; margin-left: 18px; padding: 0 3px; font-weight: 400; text-transform: capitalize; font-size: 18px; }
-	h6.h-sub-content { display: inline-block; letter-spacing: 0.2px; font-size: 18px; font-weight: 400; text-transform: capitalize; border-bottom: 2px solid #E09087; line-height: 47px; margin-bottom: -2px; width: auto; max-width: 100%; }
+	h6.h-sub-content { display: inline-block; letter-spacing: 0.2px; /*font-size: 18px;*/font-size: 30px; font-weight: 400; text-transform: capitalize; border-bottom: 2px solid #E09087; line-height: 47px; margin-bottom: -2px; width: auto; max-width: 100%; }
 	.sub-content span { display: inline-block; font-size: 10px; font-weight: bold; letter-spacing: 2px; }
 	.sub-content { border-bottom: 2px solid #e5e5e5; position: relative; margin-bottom: 30px; }
 	
