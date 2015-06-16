@@ -84,7 +84,7 @@
 	em { font-style: italic; }
 	strong { font-weight: bold; }
 	p strong { font-size:14px; }
-	small { font-size: 75%; color: #969a9e; }
+	small { /* font-size: 75%; */ font-size: 23px; color: #969a9e; }
 	p small { font-size:12px; font-weight:400; }
 	i:hover { cursor:default;}
 	a i:hover { cursor:pointer;}

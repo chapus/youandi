@@ -57,42 +57,63 @@
 			<div class="icon-box5">
 				<i class="icomoon-bubble-heart"></i>
 				<h4>Concepto y diseño del evento.</h4>
+				<p>Te decimos lo que está de vanguardia</p>
 			</div>
 		</div>
 		<div class="one_half column-last">
 			<div class="icon-box5">
 				<i class="icomoon-flower"></i>
 				<h4>Decoración floral.</h4>
+				<p>Estilo, es nuestra marca</p>
 			</div>
 		</div>
 		<div class="one_half">
 			<div class="icon-box5">
 				<i class="icomoon-bed-2"></i>
 				<h4>Renta de mobiliario y mantelería.</h4>
+				<p>Tenemos los mejores proveedores</p>
 			</div>
 		</div>
 		<div class="one_half column-last">
 			<div class="icon-box5">
 				<i class="icomoon-factory"></i>
 				<h4>Banquetes con los mejores proveedores de la industria.</h4>
+				<p>Degustarás sabores exquisitos</p>
 			</div>
 		</div>
 		<div class="one_half">
 			<div class="icon-box5">
 				<i class="icomoon-spotlight"></i>
 				<h4>Diseño de iluminación adaptada a tu evento.</h4>
+				<p>Vestimos de luces tu evento</p>
 			</div>
 		</div>
 		<div class="one_half column-last">
 			<div class="icon-box5">
 				<i class="icomoon-stack-music"></i>
 				<h4>Grupos Musicales y DJ´S. </h4>
+				<p>Te transportaremos a una experiencia única</p>
 			</div>
 		</div>
 		<div class="one_half">
 			<div class="icon-box5">
 				<i class="icomoon-palette"></i>
 				<h4>Maquillistas profesionales</h4>
+				<p>Lucirás increíble</p>
+			</div>
+		</div>
+		<div class="one_half column-last">
+			<div class="icon-box5">
+				<i class="icomoon-scissors"></i>
+				<h4>Asesoría de imagen </h4>
+				<p>Lucirás como una reina</p>
+			</div>
+		</div>
+		<div class="one_half">
+			<div class="icon-box5">
+				<i class="icomoon-rulers"></i>
+				<h4>Fitness </h4>
+				<p>Contamos con un servicio integral de acuerdo a tus necesidades</p>
 			</div>
 		</div>
 	</div>
