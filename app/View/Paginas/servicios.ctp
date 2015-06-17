@@ -23,23 +23,36 @@
 	<!-- /end-Callouts -->
     </div>
     
+    <?php
+    $images = array(
+    'floral.jpg' => 'Decoración floral', 
+    'asesoria.jpg' => 'Asesoría de Imagen', 
+    'banquete.jpg' => 'Banquetes', 
+    'concepto.jpg' => 'Concepto y diseño', 
+    'fitness.jpg' => 'Fitness', 
+    'iluminacion.jpg' => 'Diseño de iluminación', 
+    'maquillista.jpg' => 'Maquillistas profesionales', 
+    'mobiliario.jpg' => 'Renta de mobiliario y mantelería', 
+    'musica.jpg' => 'Grupos musicales y DJ\'s'
+    );
+    ?>
     <hr class="vertical-space1">
 	<div class="sixteen columns">
       <div class="flexslider">
         <ul class="slides">
-          <li> <?= $this->Html->image('servicios/flores.jpg'); ?> 
+        <?php
+        foreach($images as $key => $value):
+        ?>
+          <li> 
+          <img src="<?php echo $this->Image->resize('img/servicios', $key, 1100, 378, false) ?>">
           <article class="slide-caption">
-              <h3>Decoración floral</h3>
+              <h3><?= $value; ?></h3>
               <p>You and I</p>
             </article>
           </li>
-          <li> <?= $this->Html->image('placeholder2.png'); ?>
-            <article class="slide-caption">
-              <h3>Concepto y diseño del evento</h3>
-              <p>You and I</p>
-            </article>
-          </li>
-          <li> <?= $this->Html->image('placeholder2.png'); ?> </li>
+        <?php
+        endforeach;
+        ?>
         </ul>
       </div>
     </div>

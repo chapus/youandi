@@ -64,18 +64,14 @@
         <div class="one_third">
           <figure class="our-team"> <?= $this->Html->image('nosotros/vanessadelatorre.jpg'); ?>
             <figcaption><h4><strong>Vanessa De La Torre<br>
-              <small>Event Planner</small></strong></h4>
-            <p>Morem ipsum dolor sit amet, consectetur adipiscing elit Aenean nisl orci aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-            <div class="socailfollow"><a href="#" class="facebook"><i class="icomoon-facebook"></i></a> <a href="#" class="dribble"><i class="icomoon-dribbble"></i></a> <a href="#" class="twitter"><i class="icomoon-twitter"></i></a> <a href="#" class="google"><i class="icomoon-google"></i></a> <a href="#" class="linkedin"><i class="icomoon-linkedin"></i></a></div></figcaption>
+              <small>Event Planner</small></strong></h4></figcaption>
           </figure>
           <!-- end Our Team -->
         </div>
         <div class="one_third column-last">
           <figure class="our-team"> <?= $this->Html->image('nosotros/dianadelatorre.jpg'); ?>
             <figcaption><h4><strong>Diana De La Torre<br>
-              <small>Diseñadora</small></strong></h4>
-            <p>Morlem ipsum dolor sit amet, consectetur adipiscing elit Aenean nisl orci aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-            <div class="socailfollow"><a href="#" class="facebook"><i class="icomoon-facebook"></i></a> <a href="#" class="dribble"><i class="icomoon-dribbble"></i></a> <a href="#" class="twitter"><i class="icomoon-twitter"></i></a> <a href="#" class="google"><i class="icomoon-google"></i></a> <a href="#" class="linkedin"><i class="icomoon-linkedin"></i></a></div></figcaption>
+              <small>Diseñadora</small></strong></h4></figcaption>
           </figure>
           <!-- end Our Team -->
         </div>

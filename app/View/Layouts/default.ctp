@@ -35,6 +35,10 @@
 		echo $this->Html->css('style1/style', '', array('media' => 'all') );
 		
 		echo $this->Html->script( array('style1/jquery.min') );
+
+		/* Usermgmt Plugin JS */
+		echo $this->Html->script('/usermgmt/js/ajaxValidation.js?q='.QRDN);
+		
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');

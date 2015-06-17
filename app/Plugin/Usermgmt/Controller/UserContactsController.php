@@ -134,7 +134,7 @@ class UserContactsController extends UserMgmtAppController {
 					$this->request->data['UserContact']['user_id'] = $userId;
 					$this->UserContact->save($this->request->data,false);
 					$this->__sendMailToAdmin($this->request->data['UserContact']['name'], $this->request->data['UserContact']['email'], $this->request->data['UserContact']['phone'], $this->request->data['UserContact']['requirement']);
-					$this->Session->setFlash(__('thank you for contacting us. we will be in touch with you very soon'));
+					$this->Session->setFlash(__('Gracias por contactarnos, pronto nos estaremos comunicando contigo. Agradecemos tu preferencia.'));
 					$this->redirect('/');
 				}
 			}

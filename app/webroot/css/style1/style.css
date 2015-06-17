@@ -29,6 +29,11 @@
 		margin: 0 auto; position: relative; padding: 0; background: #fff;
 		background-image: url('../../img/wood20p.png');
 	}
+
+	div.error-message {
+		font-size: 20px;
+		color: #E6AAC3;
+	}
 	/*
 	#wrap::before {
     content: ' ';

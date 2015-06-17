@@ -12,7 +12,9 @@ class PaginasController extends AppController {
  */
 	public $name = 'Paginas';
 	
-	var $useTable = false;
+	public $useTable = false;
+
+	public $uses = array('Customer');
 	
 	public function beforeFilter() {
 		parent::beforeFilter();
@@ -73,9 +75,9 @@ class PaginasController extends AppController {
 					$email = new CakeEmail();
 					$email->config('gmail');
 					
-					$email->from( array($eaddress => 'Weddings For Life - Nuevo contacto') );
+					$email->from( array($eaddress => 'You And I - Nuevo contacto') );
 					//$email->to( array('lilia@mezzoforte.com.mx') );
-					$email->to( array('myday@weddingsforlife.mx', 'gabriela.arenas.ocampo@gmail.com') );
+					$email->to( array('info@youandi.com.mx', 'vane@youandi.com.mx') );
 					$email->subject( $name.' se ha contactado hoy.' );
 					$email->replyTo( $eaddress );
 					$email->addBcc( 'limpaspid@yahoo.com' );

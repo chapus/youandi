@@ -34,7 +34,6 @@ var ajaxValidation = (function(){
 						$('#ajaxValidationMsgText').html('Please complete or correctly fill the fields highlighted red');
 						$('#ajaxValidationMsg').show();
 					}
-					$("html, body").animate({ scrollTop: 0 }, "slow");
 				}
 			} catch(e) {
 				this.settings.callback('error');
