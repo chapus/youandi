@@ -112,14 +112,14 @@
 			<div class="icon-box5">
 				<i class="icomoon-palette"></i>
 				<h4>Maquillistas profesionales</h4>
-				<p>Lucirás increíble</p>
+				<p>Lucirás impecable</p>
 			</div>
 		</div>
 		<div class="one_half column-last">
 			<div class="icon-box5">
 				<i class="icomoon-scissors"></i>
 				<h4>Asesoría de imagen </h4>
-				<p>Lucirás como una reina</p>
+				<p>Proyectamos tu esencia</p>
 			</div>
 		</div>
 		<div class="one_half">

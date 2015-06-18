@@ -27,12 +27,20 @@
 	
 	#wrap { 
 		margin: 0 auto; position: relative; padding: 0; background: #fff;
-		background-image: url('../../img/wood20p.png');
+		background-image: url('../../img/wood4.jpg');
 	}
 
 	div.error-message {
 		font-size: 20px;
 		color: #E6AAC3;
+	}
+
+	div.notifyjs-bootstrap-pink {
+	  white-space: nowrap;
+	  background-color: #E6AAC3;
+	  color:white;
+	  padding: 10px;
+	  font-size: 30px;
 	}
 	/*
 	#wrap::before {
@@ -94,7 +102,7 @@
 	.logo img { max-width: 100%; height:auto; max-height:100%; min-height:54px; }
 	#header.super-fixed .logo img, header.super-fixed .logo { max-height:90px; width:auto;}
 	
-	#sticker { background: #fff\9; z-index: 90000; width: 100%; height: auto; position: relative; }
+	#sticker { background: #fff\9; z-index: 100; width: 100%; height: auto; position: relative; }
 	.darkhalf #sticker { position:fixed; top:0;}
 	.darkhalf section.homedark{ margin-top:-114px;}
 	header.sticky { margin: 0; position: fixed; top: 0; z-index: 100; }
@@ -275,9 +283,9 @@
 	.gallery-caption { display: inline; }
 	.bypostauthor { font-size: 13px; }
 	/* Scroll to top */
-	#scroll-top a { width: 16px; height: 16px; padding: 6px 8px 9px; border-radius: 4px; background: #E6AAC3; position: fixed; bottom: 48px; right: 32px; display: none; opacity: 0.89; filter: alpha(opacity=89); z-index: 499841; }
+	#scroll-top a { width: 16px; height: 16px; padding: 6px 8px 9px; border-radius: 4px; background: #cb007c; position: fixed; bottom: 48px; right: 32px; display: none; opacity: 0.89; filter: alpha(opacity=89); z-index: 499841; }
 	#scroll-top a i { font-size: 16px; color: #fff; }
-	#scroll-top a:hover { background-color: #BB586A; cursor: pointer; }
+	#scroll-top a:hover { background-color: #b0076a; cursor: pointer; }
 	
 	h1.pnf404 { font-size: 176px; line-height: 1.1; font-weight:900;}
 	h2.pnf404 { font-size: 42px; line-height: 1.2; font-weight:700; }

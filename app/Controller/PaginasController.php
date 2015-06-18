@@ -28,6 +28,7 @@ class PaginasController extends AppController {
 	
 	
 	public function nosotros() {
+		//$this->Session->setFlash(__('Gracias por contactarnos, pronto nos estaremos comunicando contigo. Agradecemos tu preferencia.'), 'notify');
 		$this->set('title_for_layout', __('Nosotros - You & I | Organizamos y coordinamos tus eventos') );
 	}
 	

@@ -30,11 +30,11 @@
     <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab:300,400" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
 	<?php
-		echo $this->Html->meta('icon', $this->Html->url('/favicon.ico'));
+		echo $this->Html->meta('icon', $this->Html->url('/favicon/favicon.ico', true));
 
 		echo $this->Html->css('style1/style', '', array('media' => 'all') );
 		
-		echo $this->Html->script( array('style1/jquery.min') );
+		echo $this->Html->script( array('style1/jquery.min', 'style1/notify.min') );
 
 		/* Usermgmt Plugin JS */
 		echo $this->Html->script('/usermgmt/js/ajaxValidation.js?q='.QRDN);

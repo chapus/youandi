@@ -38,9 +38,6 @@
 				<?= $this->Html->link($this->Html->image('galeria/g8.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g8.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 				<li class="img-item">
-				<?= $this->Html->link($this->Html->image('galeria/g9.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g9.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
-				</li>
-				<li class="img-item">
 				<?= $this->Html->link($this->Html->image('galeria/g10.jpg').'<span class="zoomex">&nbsp;</span>', '/img/galeria/g10.jpg', array('rel' => 'prettyPhoto[gallery2]', 'title' => 'Title', 'escape' => false) ); ?>
 				</li>
 

@@ -134,7 +134,7 @@ class UserContactsController extends UserMgmtAppController {
 					$this->request->data['UserContact']['user_id'] = $userId;
 					$this->UserContact->save($this->request->data,false);
 					$this->__sendMailToAdmin($this->request->data['UserContact']['name'], $this->request->data['UserContact']['email'], $this->request->data['UserContact']['phone'], $this->request->data['UserContact']['requirement']);
-					$this->Session->setFlash(__('Gracias por contactarnos, pronto nos estaremos comunicando contigo. Agradecemos tu preferencia.'));
+					$this->Session->setFlash(__('Gracias por contactarnos, pronto nos estaremos comunicando contigo. Agradecemos tu preferencia.'), 'notify');
 					$this->redirect('/');
 				}
 			}
@@ -157,24 +157,23 @@ class UserContactsController extends UserMgmtAppController {
 	 * @return void
 	 */
 	private function __sendMailToAdmin($name, $email, $phone, $requirement) {
-		$emailObj = new CakeEmail('default');
+		$emailObj = new CakeEmail('smtp');
 		$emailObj->emailFormat('both');
-		$fromConfig = EMAIL_FROM_ADDRESS;
-		$fromNameConfig = EMAIL_FROM_NAME;
+		$fromConfig = "contacto@youandi.com.mx";
+		$fromNameConfig = "You and I - Organización y coordinación de bodas";
 		$emailObj->from(array($fromConfig => $fromNameConfig));
 		$emailObj->sender(array($fromConfig => $fromNameConfig));
-		$emailObj->subject(__('Contact Enquiry'));
+		$emailObj->subject(__('Nueva Petición Web - You&I'));
 		$requirement = nl2br($requirement);
-		$body=__('Hi Admin, <br/><br/>A contact enquiry has been saved. Here are the details- <br/><br/>Name- %s <br/>Email- %s <br/>Contact No- %s <br/>Requirement- %s <br/><br/>Thanks', $name, $email, $phone, $requirement);
-		if(ADMIN_EMAIL_ADDRESS) {
-			$emailObj->to(ADMIN_EMAIL_ADDRESS);
-			try{
-				$result = $emailObj->send($body);
-			} catch (Exception $ex) {
-				// we could not send the email, ignore it
-				$result="Could not send contact enquiry mail to admin";
-				$this->log($result, LOG_DEBUG);
-			}
+		$body=__('Hola You and I, <br/><br/>Una nueva petición se ha generado. Estos son los detalles- <br/><br/>Name- %s <br/>Correo- %s <br/>Teléfono- %s <br/>Mensaje- %s <br/><br/>', $name, $email, $phone, $requirement);
+		$to = array('vane@youandi.com.mx', 'contacto@youandi.com.mx');
+		$emailObj->to($to);
+		try{
+			$result = $emailObj->send($body);
+		} catch (Exception $ex) {
+			// we could not send the email, ignore it
+			$result="Could not send contact enquiry mail to admin";
+			$this->log($result, LOG_DEBUG);
 		}
 	}
 }

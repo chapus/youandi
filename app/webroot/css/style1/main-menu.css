@@ -2,7 +2,7 @@
 	/* NAVIGATION BAR  */
 	
 	.nav-wrap1, .nav-wrap2 { height:110px;  position:relative; }
-	.nav-wrap2 { height:77px; border-top:1px solid #EDD6D8; margin-bottom:-4px; border-bottom:4px solid #f3f3f3;  }
+	.nav-wrap2 { height:77px; border-top:1px solid #f6a7d7; margin-bottom:-4px; border-bottom:4px solid #f3f3f3;  }
 	.nav-wrap2.mn4 { height:50px; }
 	
 	/* menu icon */
@@ -12,11 +12,11 @@
 	#nav li { list-style: none; float:left; display:block; height:100%; vertical-align:middle; }	
 	
 	/* nav link */
-	#nav a { display: block; font-family: 'Roboto', sans-serif; font-size: 14px; line-height:24px; font-weight:600; padding: 70px 16px 16px; color: #777; outline: 0; text-align: left; background-color:#fff; opcity:1; text-align:center; -webkit-transition:background .15s ease-in-out;	-moz-transition:background .15s ease-in-out;	-ms-transition:background .15s ease-in-out;	-o-transition:background .15s ease-in-out; transition:background .15s ease-in-out; }
-	#nav a:hover, #nav li:hover > a { background-color:#EDD6D8; }
+	#nav a { display: block; /*font-family: 'Roboto', sans-serif;*/ font-size: 22px; line-height:24px; font-weight:bold; padding: 70px 16px 16px; color: #777; outline: 0; text-align: left; background-color:#fff; opcity:1; text-align:center; -webkit-transition:background .15s ease-in-out;	-moz-transition:background .15s ease-in-out;	-ms-transition:background .15s ease-in-out;	-o-transition:background .15s ease-in-out; transition:background .15s ease-in-out; }
+	#nav a:hover, #nav li:hover > a { background-color:#f6a7d7; }
 	#nav a i { font-size:16px; line-height:16px; display:inline; color:inherit; margin-right:4px; vertical-align:baseline;}
 	#nav > li > a i { margin-right:6px; font-weight:normal;}
-	#nav > li.current:after { display:block; float:left; content:""; width:100%; height:4px; background:#DD9B9D; bottom:0px; margin-bottom:-4px;}
+	#nav > li.current:after { display:block; float:left; content:""; width:100%; height:4px; background:#b0076a; bottom:0px; margin-bottom:-4px;}
 	
 	/* nav link Header2 */
 	.nav-wrap2 #nav { float:left; margin-bottom:0; }
@@ -36,10 +36,10 @@
 	
 	/* nav link fixes */
 	.homedark #nav > li > a, .darkhalf #nav > li > a { background:transparent; color:#fff;}
-	.homedark #nav > li:hover > a, .darkhalf #nav > li:hover > a  { background:#EDD6D8; color:#777;}
+	.homedark #nav > li:hover > a, .darkhalf #nav > li:hover > a  { background:#f6a7d7; color:#777;}
 	.homedark .is-sticky #nav > li > a, .darkhalf .is-sticky #nav > li > a  { color:#777;}	
 	.is-sticky #header #nav > li > a:link { background:inherit;}
-	.is-sticky #header #nav > li:hover > a { background:#EDD6D8;}
+	.is-sticky #header #nav > li:hover > a { background:#f6a7d7;}
 	
 	#header.super-fixed #nav > li > a { padding:0 16px; line-height:90px;}
 	#header.super-fixed #nav > li > a:after { display:none; content:"";}
@@ -91,10 +91,10 @@
 	#header.super-fixed .nav-wrap1 { height:30px; }
 
 	/* menu icon */
-	#menu-icon { color: rgba(0,0,0,0.9); margin:0 auto; width: 246px; font-size:16px; font-weight:400; height: 30px; border-radius:2px; background: #FBCDD8; padding: 11px 10px 3px 42px; cursor: pointer;	 clear:both; box-shadow:  0 2px 2px -2px rgba(0,0,0,0.3); text-align:left; display: block; /* how menu icon */	}
+	#menu-icon { color: rgba(0,0,0,0.9); margin:0 auto; width: 246px; font-size:24px; font-weight:400; height: 30px; border-radius:2px; background: #FBCDD8; padding: 11px 10px 3px 42px; cursor: pointer;	 clear:both; box-shadow:  0 2px 2px -2px rgba(0,0,0,0.3); text-align:left; display: block; /* how menu icon */	}
 	#menu-icon i { font-size:16px; color:rgba(0,0,0,0.6); float:left; margin-left:-28px; margin-top:3px; }
 	#menu-icon:hover, #menu-icon.active {	background-color: #EF8A9C; }
-	.mn-clk { font-size:12px; color:rgba(0,0,0,0.5);}
+	.mn-clk { font-size:20px; color:rgba(0,0,0,0.5);}
 	
 	/* main nav */
 	#nav { clear: both; margin:0 auto; background:#fff; left:1px; position: absolute; width: 278px; z-index: 10000; padding:2px 0 44px 18px; border: 1px solid #d2d2d2; border-top:0 none;	display: none; /* visibility will be toggled with jquery */	}
