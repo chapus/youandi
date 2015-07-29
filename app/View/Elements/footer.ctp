@@ -31,8 +31,8 @@
       <div class="footer-navi">© <?= date("Y"); ?> <a href="#">You & I</a> Todos los derechos reservados.</div>
       <div class="socailfollow">
 		        	<a href="https://www.facebook.com/youandi.eventsdreamaker" target="_blank" class="facebook"><i class="icomoon-facebook"></i></a>
-		        	<!-- <a href="#" class="twitter"><i class="icomoon-twitter"></i></a>
-		        	<a href="#" class="pinterest"><i class="icomoon-pinterest-2"></i></a> -->
+		        	<a href="https://www.twitter.com/Eventsdreamaker" target="_blank" class="twitter"><i class="icomoon-twitter"></i></a>
+		        	<!-- <a href="#" class="pinterest"><i class="icomoon-pinterest-2"></i></a> -->
         </div>
 	  </div>
 	  <!-- footer-navigation /end -->

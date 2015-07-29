@@ -2,15 +2,10 @@
 	$this->viewVars['title_for_layout']= "You & I | Organización y coordinación de bodas";
 
     $images = array(
-    'inicio1.jpg' => 'Organización y coordinación de bodas', 
-    'inicio2.jpg' => 'Organización y coordinación de bodas', 
-    'inicio3.jpg' => 'Banquetes', 
-    'inicio4.jpg' => 'Renta de mobiliario y mantelería',
-    'inicio5.jpg' => 'Concepto y diseño', 
-    'inicio6.jpg' => 'Fitness', 
-    'inicio7.jpg' => 'Diseño de iluminación', 
-    'inicio8.jpg' => 'Asesoría de Imagen', 
-    'inicio9.jpg' => 'Maquillistas profesionales'
+    'main1.jpg' => 'Organización y coordinación de bodas', 
+    'main2.jpg' => 'Organización y coordinación de bodas', 
+    'main3.jpg' => 'Banquetes', 
+    'main4.jpg' => 'Renta de mobiliario y mantelería'
     );
 ?>
 

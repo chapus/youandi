@@ -68,6 +68,12 @@
           </figure>
           <!-- end Our Team -->
         </div>
+        <div class="one_third">
+          <figure class="our-team"> <?= $this->Html->image('nosotros/peonia.jpg'); ?>
+            <figcaption></figcaption>
+          </figure>
+          <!-- end Our Team -->
+        </div>
         <div class="one_third column-last">
           <figure class="our-team"> <?= $this->Html->image('nosotros/dianadelatorre.jpg'); ?>
             <figcaption><h4><strong>Diana De La Torre<br>

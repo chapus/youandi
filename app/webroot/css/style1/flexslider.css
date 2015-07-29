@@ -56,7 +56,7 @@ html[xmlns] .slides {display: block; position:relative;}
 .flex-direction-nav .flex-prev {left: 0x; border-radius: 0 4px 4px 0;}
 .flexslider:hover .flex-next {opacity: 0.8; }
 .flexslider:hover .flex-prev {opacity: 0.8; }
-.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1; background-color: #0c78b8;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1; background-color: #b0076a;}
 .flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
 
 /* Control Nav */
@@ -64,7 +64,7 @@ html[xmlns] .slides {display: block; position:relative;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-paging li a {width: 16px; height: 16px; display: block; background: #fff; background: rgba(255,255,255,0.9); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; }
 .flex-control-paging li a:hover { background: #fff; background: rgba(255,255,255,0.7); }
-.flex-control-paging li a.flex-active { background: #0c78b8; cursor: default; }
+.flex-control-paging li a.flex-active { background: #b0076a; cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
