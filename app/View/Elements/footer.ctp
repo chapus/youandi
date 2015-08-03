@@ -3,12 +3,12 @@
     background: #7ea4a2 url(img/woodyouandi.jpg) repeat center top;
   }
   div.flores {
-    background: transparent url(img/floral.png) repeat center top;
-    height: 195px;
-    margin-top: -103px;
+    background: transparent url(img/floral2.png) no-repeat center top;
+    height: 130px;
+    margin-top: -65px;
     width: 100%;
     position: relative;
-    z-index: 1111;
+    z-index: 99;
   }
 </style>
 
