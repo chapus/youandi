@@ -9,11 +9,11 @@
 
 <section class="container">
     <hr class="vertical-space2">
-    <article class="ten columns">
+    <article class="ten columns" style="background-color: rgba(0,0,0,0.25);">
 		<div class="sub-content">
-			<h6 class="h-sub-content">¿Quiénes Somos?</h6>
+			<h6 class="h-sub-content" style="padding: 5px;">¿Quiénes Somos?</h6>
 		</div>
-      <p>Somos una compañía que brinda un servicio integral de conceptualización, diseño y coordinación de tu boda y evento social o corporativo.</p>
+      <p style="padding: 10px;">Somos una compañía que brinda un servicio integral de conceptualización, diseño y coordinación de tu boda y evento social o corporativo.</p>
     </article>
 	<!-- end Who We Are -->
     <div class="five columns omega offset-by-one">
@@ -36,7 +36,7 @@
         <section id="tooltips">
             <h4 class="subtitle">Misión</h4>
             <hr class="vertical-space1">
-            <div class="tooltips well">
+            <div class="tooltips well" style="background-color: rgba(255,255,255,0.65);">
             <p class="muted">Brindar un servicio de excelente calidad, de buen gusto y honesto, logrando la entera satisfacción de nuestros clientes; transportándolos a su mejor experiencia de evento.</p>
             </div>
         </section>

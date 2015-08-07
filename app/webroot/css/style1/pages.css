@@ -17,7 +17,7 @@
 	.contact-form .sendbtn { padding: 10px 18px; font-size: 14px; }
 	#contact-map { box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1) inset; border: 1px solid #d6dbdc; border-left: none; border-right: none; padding: 0; margin: 0 }
 	#contact-map iframe { width: 100%; padding: 0; margin: 0; margin-bottom: -7px; }
-	.contact-inf { background: url(../../img/style1/world-map2.png) no-repeat center 30px; }
+	/* .contact-inf { background: url(../../img/style1/world-map2.png) no-repeat center 30px; } */
 	.row.magic { padding-left: 40px; }
 	.columns.magic { padding-left: 20px; }
 	.magic-link { clear: both; }

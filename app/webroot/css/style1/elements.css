@@ -4,11 +4,11 @@
 	
 	/* Callout (Promo Box) */
 	
-	.callout { padding: 34px 0; min-height: 60px; margin: 8px 10px 30px; position: relative; clear: both; border-width: 2px 0; border-style: solid; border-color: #e5e5e5; }
+	.callout { padding: 15px 0; min-height: 60px; margin: 8px 10px 30px; position: relative; clear: both; border-width: 2px 0; border-style: solid; border-color: #e5e5e5; }
 	.callout h1, .callout h2, .callout h3 { font-weight: 400; }
 	.callout a { text-decoration: underline; }
-	.callout a.callurl { display: block; padding: 10px 30px; background: #fff; text-decoration: none; color: #363f46; border: 2px solid #e5e5e5; text-transform: uppercase; letter-spacing: 2px; margin: 4px 0 10px 15px; position: relative; float: right; border-radius: 3px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
-	.callout a.callurl:hover { border-color: #363f46; }
+	.callout a.callurl { display: block; padding: 10px 30px; background: #b0076a; text-decoration: none; color: #fff; border: 2px solid #cb007c; text-transform: uppercase; letter-spacing: 2px; margin: 20px 0 10px 15px; position: relative; float: right; border-radius: 3px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+	.callout a.callurl:hover { border-color: #94005A; }
 	.container .callout p { margin: 0; }
 	.container div .callout { margin-left: 0; margin-right: 0; }
 	
@@ -29,11 +29,11 @@
 		
 	/* TITLE */
 	
-	h4.subtitle { border-bottom: 1px solid #b0076a; /*font-family: 'Roboto', Helvetica, Arial;*/ font-weight: 900; letter-spacing:1px; text-transform: uppercase; line-height: 2; padding-bottom:8px; font-size: 24px; color: #54606b; clear: both; margin: 19px 0 21px 0; }
+	h4.subtitle { border-bottom: 1px solid #b0076a; /*font-family: 'Roboto', Helvetica, Arial;*/ font-weight: 900; letter-spacing:1px; text-transform: uppercase; line-height: 2; padding-bottom:8px; font-size: 24px; color: #fff; clear: both; margin: 19px 0 21px 0; }
 	h4.subtitle img { float: left; margin-right: 5px; vertical-align: baseline }
 	h4.subtitle.r1dd { margin-top: 20px; }
-	.title { background: #fff url(../../img/style1/title-left1.png) repeat-x 0 6px; overflow: hidden; margin-bottom: 21px; clear: both; }
-	.title h4, .title h3 { background: #fff; display: inline; margin-left: 18px; padding: 0 3px; font-weight: 400; text-transform: capitalize; font-size: 22px; /*font-size: 18px;*/ }
+	.title { background: transparent; url(../../img/style1/title-left1.png) repeat-x 0 6px; overflow: hidden; margin-bottom: 21px; clear: both; }
+	.title h4, .title h3 { background: transparent; display: inline; margin-left: 18px; padding: 0 3px; font-weight: 400; text-transform: capitalize; font-size: 22px; /*font-size: 18px;*/ }
 	h6.h-sub-content { display: inline-block; letter-spacing: 0.2px; /*font-size: 18px;*/font-size: 30px; font-weight: 400; text-transform: capitalize; border-bottom: 2px solid #b0076a; line-height: 47px; margin-bottom: -2px; width: auto; max-width: 100%; }
 	.sub-content span { display: inline-block; font-size: 10px; font-weight: bold; letter-spacing: 2px; }
 	.sub-content { border-bottom: 2px solid #e5e5e5; position: relative; margin-bottom: 30px; }

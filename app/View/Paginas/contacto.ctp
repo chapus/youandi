@@ -6,6 +6,7 @@
 
 <section class="container page-content">
 
+<br /><br />
 <div class="sixteen columns">
   <div class="one_third">
   	<p><strong>Dirección:</strong></p>
@@ -22,5 +23,5 @@
   	<p>contacto@youandi.com.mx<br /></p>
   </div>
 </div>
-
+<br /><br />
 </section>

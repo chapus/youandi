@@ -77,10 +77,11 @@
 	h3 strong, h4 strong { letter-spacing: -0.02em;}
 	h1.maxtitle { font-size:56px; line-height:60px; font-weight:100;}
 
-	p { margin: 0 0 20px 0; color:#424242;  /*font-size:15px; line-height:24px; */ font-size:24px; line-height:30px; font-weight:300; letter-spacing:0.2px; }
+	p { margin: 0 0 20px 0; color:#fff;  /*font-size:15px; line-height:24px; */ font-size:24px; line-height:30px; font-weight:300; letter-spacing:0.2px; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #818a92;  }
 	p.magic { font-size: 19px; line-height: 25px; margin: 0; }
+	p.muted { color:#000; }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; }
@@ -141,7 +142,7 @@
 	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 14px; font-weight:300; font-size: 24px; }
+	li { color:#fff; line-height: 18px; margin-bottom: 14px; font-weight:300; font-size: 24px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 18px; }
 	ul.check li, li.check { background:url(../../img/style1/li-check.png) no-repeat left 4px; }
