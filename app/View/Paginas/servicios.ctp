@@ -11,10 +11,10 @@
 <!-- Start Page Content -->
 
     <hr class="vertical-space2">
-    <div class="ten columns"> <small>Lo que sabemos</small>
-      <h2>You & I es una compañía que ofrece un servicio exclusivo de organización integral de bodas, eventos sociales y corporativos.</p>
+    <div class="ten columns fondo"> <small>Lo que sabemos</small>
+      <h2 style="margin: 15px;">You & I es una compañía que ofrece un servicio exclusivo de organización integral de bodas, eventos sociales y corporativos.</p>
     </div>
-    <div class="five columns omega offset-by-one">
+    <div class="five fondo columns omega offset-by-one">
 	<!-- Start-Callouts -->
     <article class="callout"> <?= $this->Html->link('Contáctanos', '/contacto', array('class' => 'callurl') ); ?>
 
@@ -60,14 +60,14 @@
     </div>
     
 	<hr class="vertical-space2">
-    <div class="sixteen columns">
-      <div class="title">
-        <h4>Algunos de los servicios que te ofrecemos son:</h4>
+    <div class="sixteen columns fondo">
+      <div class="title" style="overflow: visible;">
+        <h6 class="h-sub-content">Algunos de los servicios que te ofrecemos son:</h6>
       </div>
     </div>
-    <div class="sixteen columns">
+    <div class="sixteen columns fondo">
 
-<hr class="vertical-space1">
+    <hr class="vertical-space1">
 		<div class="one_half">
 			<div class="icon-box5">
 				<i class="icomoon-bubble-heart"></i>

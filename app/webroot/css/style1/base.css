@@ -81,7 +81,7 @@
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #818a92;  }
 	p.magic { font-size: 19px; line-height: 25px; margin: 0; }
-	p.muted { color:#000; }
+	p.muted { color:#fff; }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; }

@@ -33,6 +33,7 @@
 		echo $this->Html->meta('icon', $this->Html->url('/favicon/favicon.ico', true));
 
 		echo $this->Html->css('style1/style', '', array('media' => 'all') );
+		echo $this->Html->css('style1/custom');
 		
 		echo $this->Html->script( array('style1/jquery.min', 'style1/notify.min') );
 

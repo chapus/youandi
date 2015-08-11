@@ -1,0 +1,7 @@
+.fondo {
+  background-color: rgba(0,0,0,0.25);
+}
+
+.dibujo {
+  background: rgba(250,250,250, .5) url("../../img/nosotros/dibujo.png") no-repeat right !important;
+}

@@ -5,23 +5,25 @@
 </section>
 
 <section class="container page-content">
-
+<hr class="vertical-space2">
 <br /><br />
 <div class="sixteen columns">
-  <div class="one_third">
-  	<p><strong>Dirección:</strong></p>
-  	<p>Calle #, col. México D.F.</p>
+  <div class="one_third fondo">
+  	<p style="margin: 15px;"><strong>Dirección:</strong></p>
+  	<p style="margin: 15px;">Calle #, col. México D.F.</p>
   </div>
 
-  <div class="one_third">
-  	<p><strong>Teléfono:</strong></p>
-  	<p>+ 52 (55) 33 31 34 84<br /></p>
+  <div class="one_third fondo">
+  	<p style="margin: 15px;"><strong>Teléfono:</strong></p>
+  	<p style="margin: 15px;">+ 52 (55) 33 31 34 84<br /></p>
   </div>
 
-  <div class="one_third column-last">
-  	<p><strong>Correo:</strong></p>
-  	<p>contacto@youandi.com.mx<br /></p>
+  <div class="one_third column-last fondo">
+  	<p style="margin: 15px;"><strong>Correo:</strong></p>
+  	<p style="margin: 15px;">contacto@youandi.com.mx<br /></p>
   </div>
 </div>
+
+<hr class="vertical-space2">
 <br /><br />
 </section>
