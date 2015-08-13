@@ -3,7 +3,7 @@
 ?>
 <section id="headline" class="dibujo">
     <div class="container">
-      <h3>Nosotros</h3>
+      <?= $this->Html->image("nosotros/dibujo.png", array("class" => "responsive dibujo3")); ?><h3>Nosotros</h3>
     </div>
 </section>
 

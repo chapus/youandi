@@ -26,14 +26,11 @@
     <?php
     $images = array(
     'floral2.jpg' => 'Decoración floral', 
-    'asesoria2.jpg' => 'Asesoría de Imagen', 
-    'banquete2.jpg' => 'Banquetes', 
-    'mobiliario2.jpg' => 'Renta de mobiliario y mantelería',
-    'concepto2.jpg' => 'Concepto y diseño', 
-    'fitness2.jpg' => 'Fitness', 
-    'iluminacion2.jpg' => 'Diseño de iluminación', 
-    'asesoria3.jpg' => 'Asesoría de Imagen', 
-    'maquillista2.jpg' => 'Maquillistas profesionales', 
+    'banquetes.jpg' => 'Banquetes', 
+    'decoracion.jpg' => 'Concepto y diseño', 
+    'fitness.jpg' => 'Fitness', 
+    'iluminacion.jpg' => 'Diseño de iluminación', 
+    'maquillaje.jpg' => 'Maquillistas profesionales', 
     'mobiliario.jpg' => 'Renta de mobiliario y mantelería', 
     'musica.jpg' => 'Grupos musicales y DJ\'s'
     );

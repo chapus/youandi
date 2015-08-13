@@ -76,7 +76,7 @@
 	#full-width, #hero { width: 100%; padding: 0; clear: both; border-bottom: 1px solid #d6d6d6; }
 	#full-width img, #hero img { margin: 0; max-width: 100%; margin-bottom: -6px; }
 	#headline, #headline2 { width: 100%; height: 82px; background: rgba(250,250,250, .5); /*padding: 5px 0 20px; background: #fafafa; */ display: table; }
-	#headline h3, #headline2 h3 { color: #424748; font-size: 56px; line-height:1.3; margin: 5px 10px; position: relative; text-transform: capitalize; font-weight: 100; letter-spacing: 0; }
+	#headline h3, #headline2 h3 { color: #cb007c; font-size: 56px; line-height:1.3; margin: 5px 10px; position: relative; text-transform: capitalize; font-weight: 100; letter-spacing: 0; }
 	#headline h3 small, #headline2 small { font-size: 56%; color: rgba(255,255,255,0.8); font-weight: 300; margin-left: 10px; letter-spacing: -0.07em; text-transform: capitalize; }
 	#headline h3 small { color: #808080; font-weight: 100; }
 	#headline2 { padding: 25px 0 12px; background: #0093d0; }
@@ -408,7 +408,7 @@
 	
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-	
+	.dibujo3 { display: none; }
 	.sidebar, .rgt-cntt, .sidebar.leftside { padding-right:0; background:none; padding-top:40px; margin-top:40px; border-top:5px solid #e5e5e5;}
 	.rgt-cntt, .sidebar.leftside { padding-top:0px; margin-top:0px; border-top:0 none;}
 	.contact-form .txbx { width:224px;}
