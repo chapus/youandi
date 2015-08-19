@@ -6,16 +6,15 @@
 
 <section class="container page-content">
 <hr class="vertical-space2">
-<br /><br />
+
 <div class="sixteen columns">
-  <div class="one_third fondo">
-  	<p style="margin: 15px;"><strong>Dirección:</strong></p>
-  	<p style="margin: 15px;">Calle #, col. México D.F.</p>
-  </div>
 
   <div class="one_third fondo">
   	<p style="margin: 15px;"><strong>Teléfono:</strong></p>
   	<p style="margin: 15px;">+ 52 (55) 33 31 34 84<br /></p>
+  </div>
+
+  <div class="one_third fondo">
   </div>
 
   <div class="one_third column-last fondo">
@@ -25,5 +24,5 @@
 </div>
 
 <hr class="vertical-space2">
-<br /><br />
+
 </section>
