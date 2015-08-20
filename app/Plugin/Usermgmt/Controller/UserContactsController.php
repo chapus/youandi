@@ -157,7 +157,7 @@ class UserContactsController extends UserMgmtAppController {
 	 * @return void
 	 */
 	private function __sendMailToAdmin($name, $email, $phone, $requirement) {
-		$emailObj = new CakeEmail('smtp');
+		$emailObj = new CakeEmail('mandrill');
 		$emailObj->emailFormat('both');
 		$fromConfig = "contacto@youandi.com.mx";
 		$fromNameConfig = "You and I - Organización y coordinación de bodas";

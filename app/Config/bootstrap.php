@@ -106,6 +106,8 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+CakePlugin::load('Mandrill');
+
 CakePlugin::loadAll(array(
 	'Usermgmt' => array('routes' => true, 'bootstrap' => true)
 ));
