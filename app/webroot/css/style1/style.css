@@ -371,6 +371,16 @@
 	/* #Media Queries
 	================================================== */
 	
+	@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+		div.notifyjs-bootstrap-pink {
+		  font-size: 26px;
+		  font-weight: normal;
+		}
+		div.notifyjs-container {
+			top: 100px !important;
+			line-height: 15px;
+		}
+	}
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
 	
@@ -403,6 +413,17 @@
 	
 	.blog-date-sec { width: 42px; height: 42px; }
 	.help-box { width: 50%; }
+	#nav a {
+		padding: 68px 14px 14px;
+	}
+
+	div.notifyjs-bootstrap-pink {
+	  font-size: 18px;
+	  font-weight: normal;
+	}
+	div.contact-inf {
+		width: 420px !important;
+	}
 	
 	}
 	
@@ -503,6 +524,21 @@
 	.pin-box { width: 166px; width: 164px\9; }
 	#tline-content { width: 460px; }
 	.tline-box { width: 165px; }
+
+		div.notifyjs-bootstrap-pink {
+		  font-size: 18px;
+		}
+		div.notifyjs-container {
+			width: 300px;
+			margin-left: -40px;
+			top: 120px !important;
+			line-height: 15px;
+		}
+		div.notifyjs-bootstrap-pink span {
+			white-space: normal;
+			font-weight: normal;
+		}
+		
 	}
 	
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
